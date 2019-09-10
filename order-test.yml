@@ -17,7 +17,7 @@ spring:
 env:
   test13
 girl:
-  name: jiejie
+  name: sisi
   age: 18
 feign:
   client:
