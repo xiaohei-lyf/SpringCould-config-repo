@@ -17,7 +17,7 @@ spring:
 env:
   test13
 girl:
-  name: lololo
+  name: lalalalal
   age: 18
 feign:
   client:
