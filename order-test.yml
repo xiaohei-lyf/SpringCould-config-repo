@@ -17,7 +17,7 @@ spring:
 env:
   test13
 girl:
-  name: jiejeijie
+  name: jeijeijie
   age: 18
 feign:
   client:
