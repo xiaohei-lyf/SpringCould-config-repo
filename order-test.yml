@@ -5,7 +5,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: root
     password: root
-    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?serverTimezone=UTC&characterEncoding=utf-8&useSSL=false
   rabbitmq:
     host: 192.168.220.130
     port: 5672
@@ -19,10 +19,10 @@ env:
 girl:
   name: sisiisa
   age: 18
-#feign:
-#  client:
-#    config:
-#      default:
-#        connectTimeout: 5000
-#        readTimeout: 5000
-#        loggerLevel: basic
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
