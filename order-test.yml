@@ -17,7 +17,7 @@ spring:
 env:
   test13
 girl:
-  name: sisisi
+  name: lolo
   age: 18
 
 feign:
